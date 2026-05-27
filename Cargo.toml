@@ -1,0 +1,13 @@
+[package]
+name = "cgns-io"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "cgns_io"
+path = "src/lib.rs"
+
+[dependencies]
+cgns = { git = "https://github.com/asonolet/cgns-rs", branch = "ftu/modif-for-reader" }
+mefikit = "0.1.0"
+ndarray = "0.17"
